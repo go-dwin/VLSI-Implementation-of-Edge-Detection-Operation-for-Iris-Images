@@ -1,0 +1,42 @@
+{
+  'Line_111' => {
+    'CodeInstance' => 'subsystem_struct/cmult',
+    'Instance' => 'cmult',
+    'SimulinkInstance' => 'grayscale/Subsystem/CMult'
+  },
+  'Line_143' => {
+    'CodeInstance' => 'subsystem_struct/cmult1',
+    'Instance' => 'cmult1',
+    'SimulinkInstance' => 'grayscale/Subsystem/CMult1'
+  },
+  'Line_175' => {
+    'CodeInstance' => 'subsystem_struct/cmult2',
+    'Instance' => 'cmult2',
+    'SimulinkInstance' => 'grayscale/Subsystem/CMult2'
+  },
+  'Line_201' => {
+    'CodeInstance' => 'subsystem_default_clock_driver/clockdriver',
+    'Instance' => 'clockdriver',
+    'SimulinkInstance' => ''
+  },
+  'Line_221' => {
+    'CodeInstance' => 'subsystem_default_clock_driver',
+    'Instance' => 'subsystem_default_clock_driver',
+    'SimulinkInstance' => ''
+  },
+  'Line_228' => {
+    'CodeInstance' => 'subsystem_struct',
+    'Instance' => 'subsystem_struct',
+    'SimulinkInstance' => 'Subsystem'
+  },
+  'Line_52' => {
+    'CodeInstance' => 'subsystem_struct/addsub',
+    'Instance' => 'addsub',
+    'SimulinkInstance' => 'grayscale/Subsystem/AddSub'
+  },
+  'Line_82' => {
+    'CodeInstance' => 'subsystem_struct/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'grayscale/Subsystem/AddSub1'
+  }
+}

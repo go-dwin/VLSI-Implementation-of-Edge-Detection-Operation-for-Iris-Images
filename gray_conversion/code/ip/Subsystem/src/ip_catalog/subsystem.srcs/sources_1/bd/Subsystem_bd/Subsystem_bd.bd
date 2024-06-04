@@ -1,0 +1,141 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xF1EB5A0B6EA7AA44",
+      "design_src": "SYSGEN",
+      "device": "xc7s50csga324-1",
+      "gen_directory": "../../../../subsystem.gen/sources_1/bd/Subsystem_bd",
+      "name": "Subsystem_bd",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Subsystem_1": ""
+    },
+    "ports": {
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "Subsystem_bd_clk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "gateway_in": {
+        "type": "data",
+        "direction": "I",
+        "left": "9",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "gateway_in1": {
+        "type": "data",
+        "direction": "I",
+        "left": "9",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "gateway_in2": {
+        "type": "data",
+        "direction": "I",
+        "left": "9",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "gateway_out": {
+        "type": "data",
+        "direction": "O",
+        "left": "23",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": [
+              "xilinx.com:interface:datatypes:1.0 {",
+              "DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {}",
+              "maximum {}} value 24} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} real {fixed {fractwidth {attribs {resolve_type immediate dependency {} format",
+              "long minimum {} maximum {}} value 12} signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value true}}}}}",
+              "}"
+            ],
+            "value_src": "const_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "Subsystem_1": {
+        "vlnv": "User_Company:VMC:Subsystem:1.0",
+        "ip_revision": "341067005",
+        "xci_name": "Subsystem_bd_Subsystem_1_0",
+        "xci_path": "ip\\Subsystem_bd_Subsystem_1_0\\Subsystem_bd_Subsystem_1_0.xci",
+        "inst_hier_path": "Subsystem_1"
+      }
+    },
+    "nets": {
+      "Subsystem_1_gateway_out": {
+        "ports": [
+          "Subsystem_1/gateway_out",
+          "gateway_out"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "Subsystem_1/clk"
+        ]
+      },
+      "gateway_in1_1": {
+        "ports": [
+          "gateway_in1",
+          "Subsystem_1/gateway_in1"
+        ]
+      },
+      "gateway_in2_1": {
+        "ports": [
+          "gateway_in2",
+          "Subsystem_1/gateway_in2"
+        ]
+      },
+      "gateway_in_1": {
+        "ports": [
+          "gateway_in",
+          "Subsystem_1/gateway_in"
+        ]
+      }
+    }
+  }
+}

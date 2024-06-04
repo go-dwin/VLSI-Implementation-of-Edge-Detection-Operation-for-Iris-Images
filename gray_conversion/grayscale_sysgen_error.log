@@ -1,0 +1,139 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator 2023.2                 C:/Xilinx/Vivado/2023.2
+Matlab 9.10.0.1602886 (R2021a)          C:\Program Files\MATLAB\R2021a
+Vivado 2023.2                           C:/Xilinx/Vivado/2023.2
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: Error using xlAssociateSettings
+Invalid Simulink object s...
+     Block: 
+Error 0002: A summary of Vitis Model Composer errors has been written...
+     Block: 'grayscale/Subsystem/AddSub'
+Error 0003: Error using xlAssociateSettings
+Invalid Simulink object s...
+     Block: Unspecified
+Error 0004: A summary of Vitis Model Composer errors has been written...
+     Block: 'grayscale/Subsystem/AddSub'
+Error 0005: A summary of Vitis Model Composer errors has been written...
+     Block: 'grayscale/Subsystem/AddSub1'
+Error 0006: A summary of Vitis Model Composer errors has been written...
+     Block: 'grayscale/Subsystem/CMult'
+Error 0007: A summary of Vitis Model Composer errors has been written...
+     Block: 'grayscale/Subsystem/CMult1'
+Error 0008: A summary of Vitis Model Composer errors has been written...
+     Block: 'grayscale/Subsystem/CMult2'
+Error 0009: A summary of Vitis Model Composer errors has been written...
+     Block: 'grayscale/Subsystem/Gateway In'
+Error 0010: A summary of Vitis Model Composer errors has been written...
+     Block: 'grayscale/Subsystem/Gateway In1'
+Error 0011: A summary of Vitis Model Composer errors has been written...
+     Block: 'grayscale/Subsystem/Gateway In2'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+
+Details:
+Error using xlAssociateSettings
+Invalid Simulink object specifier
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'grayscale/Subsystem/AddSub'
+
+Details:
+A summary of Vitis Model Composer errors has been written to 'C:\Users\Project\AppData\Roaming\Xilinx\Model_Composer\model_composer_hdl.log'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  Unspecified
+
+Details:
+Error using xlAssociateSettings
+Invalid Simulink object specifier
+Collecting information from the Vitis Model Composer Hub block
+failed. This usually indicates that the Vitis Model Composer Hub
+that  specifies design settings is corrupted. To fix this problem
+ please replace the existing top level Vitis Model Composer Hub
+block  in the design with one from the Simulink Library Browser 
+and restart the Vitis Model Composer
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'grayscale/Subsystem/AddSub'
+
+Details:
+A summary of Vitis Model Composer errors has been written to 'C:/Users/Project/Desktop/gray_conversion/grayscale_sysgen_error.log'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'grayscale/Subsystem/AddSub1'
+
+Details:
+A summary of Vitis Model Composer errors has been written to 'C:/Users/Project/Desktop/gray_conversion/grayscale_sysgen_error.log'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'grayscale/Subsystem/CMult'
+
+Details:
+A summary of Vitis Model Composer errors has been written to 'C:/Users/Project/Desktop/gray_conversion/grayscale_sysgen_error.log'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'grayscale/Subsystem/CMult1'
+
+Details:
+A summary of Vitis Model Composer errors has been written to 'C:/Users/Project/Desktop/gray_conversion/grayscale_sysgen_error.log'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'grayscale/Subsystem/CMult2'
+
+Details:
+A summary of Vitis Model Composer errors has been written to 'C:/Users/Project/Desktop/gray_conversion/grayscale_sysgen_error.log'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'grayscale/Subsystem/Gateway In'
+
+Details:
+A summary of Vitis Model Composer errors has been written to 'C:/Users/Project/Desktop/gray_conversion/grayscale_sysgen_error.log'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'grayscale/Subsystem/Gateway In1'
+
+Details:
+A summary of Vitis Model Composer errors has been written to 'C:/Users/Project/Desktop/gray_conversion/grayscale_sysgen_error.log'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'grayscale/Subsystem/Gateway In2'
+
+Details:
+A summary of Vitis Model Composer errors has been written to 'C:/Users/Project/Desktop/gray_conversion/grayscale_sysgen_error.log'
+--------------------------------------------------------------------------------
